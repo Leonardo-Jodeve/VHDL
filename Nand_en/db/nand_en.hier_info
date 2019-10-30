@@ -1,0 +1,7 @@
+|nand_en
+A => Y.IN0
+B => Y.IN1
+en => Y.OE
+Y << Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,38 @@
+|Decoder
+A => Mux7.IN10
+A => Mux6.IN10
+A => Mux5.IN10
+A => Mux4.IN10
+A => Mux3.IN10
+A => Mux2.IN10
+A => Mux1.IN10
+A => Mux0.IN10
+B => Mux7.IN9
+B => Mux6.IN9
+B => Mux5.IN9
+B => Mux4.IN9
+B => Mux3.IN9
+B => Mux2.IN9
+B => Mux1.IN9
+B => Mux0.IN9
+C => Mux7.IN8
+C => Mux6.IN8
+C => Mux5.IN8
+C => Mux4.IN8
+C => Mux3.IN8
+C => Mux2.IN8
+C => Mux1.IN8
+C => Mux0.IN8
+G1 => process_0~0.IN1
+G2AN => process_0~0.IN0
+G2BN => process_0~1.IN1
+Y[7] <= Y~7.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y~6.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y~5.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y~4.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y~3.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y~2.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y~1.DB_MAX_OUTPUT_PORT_TYPE
+Y[0] <= Y~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

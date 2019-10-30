@@ -1,0 +1,12 @@
+Fitter Status : Successful - Wed Oct 16 23:29:44 2019
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Decoder
+Top-level Entity Name : Decoder
+Family : Cyclone
+Device : EP1C12Q240C8
+Timing Models : Final
+Total logic elements : 9 / 12,060 ( < 1 % )
+Total pins : 14 / 173 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 239,616 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

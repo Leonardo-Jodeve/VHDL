@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Wed Oct 16 07:46:11 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : nand_en
+Top-level Entity Name : nand_en
+Family : Cyclone IV GX
+Device : EP4CGX15BF14C6
+Timing Models : Final
+Total pins : 4 / 81 ( 5 % )
+Total virtual pins : 0
+Total PLLs : 0 / 3 ( 0 % )

@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, F:/VHDL/nand_en/Waveform.vwf
+source_file = 1, F:/VHDL/nand_en/nand_en.vhd
+source_file = 1, F:/VHDL/nand_en/db/nand_en.cbx.xml
+source_file = 1, d:/program files/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/program files/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/program files/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/program files/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = nand_en
+instance = comp, \Y~output\, Y~output, nand_en, 1
+instance = comp, \A~input\, A~input, nand_en, 1
+instance = comp, \B~input\, B~input, nand_en, 1
+instance = comp, \Y~1\, Y~1, nand_en, 1
+instance = comp, \en~input\, en~input, nand_en, 1
