@@ -24,7 +24,7 @@ VECTOR("F:/VHDL/Multiplexer/Multiplexer.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 192000;
+		ZEND = 206599;
 		NUMERATOR = 960;
 		DENOMINATOR = 192000;
 		TOP_INDEX = 0;
