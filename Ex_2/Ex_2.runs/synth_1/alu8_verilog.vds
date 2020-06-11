@@ -1,0 +1,347 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Jun 06 13:13:19 2020
+# Process ID: 21648
+# Current directory: F:/VHDL/Ex_2/Ex_2.runs/synth_1
+# Command line: vivado.exe -log alu8_verilog.vds -mode batch -messageDb vivado.pb -notrace -source alu8_verilog.tcl
+# Log file: F:/VHDL/Ex_2/Ex_2.runs/synth_1/alu8_verilog.vds
+# Journal file: F:/VHDL/Ex_2/Ex_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source alu8_verilog.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Verilog/Vivado/2015.4/data/ip'.
+Command: synth_design -top alu8_verilog -part xc7a100tfgg484-1
+Starting synth_design
+INFO: [IP_Flow 19-2162] IP 'xorgate_0' is locked:
+* IP definition 'xorgate (1.0)' for IP 'xorgate_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'orgate_0' is locked:
+* IP definition 'orgate (1.0)' for IP 'orgate_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'notgate_0' is locked:
+* IP definition 'notgate (1.0)' for IP 'notgate_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'muxnto1_0' is locked:
+* IP definition 'muxnto1 (1.0)' for IP 'muxnto1_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'barrelshifter8_0' is locked:
+* IP definition 'barrelshifter8 (1.0)' for IP 'barrelshifter8_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'andgate_0' is locked:
+* IP definition 'andgate (1.0)' for IP 'andgate_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'addsub_0' is locked:
+* IP definition 'addsub (1.0)' for IP 'addsub_0' was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 299.820 ; gain = 128.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu8_verilog' [F:/VHDL/Ex_2/Ex_2.srcs/sources_1/new/alu8_verilog.v:23]
+INFO: [Synth 8-638] synthesizing module 'addsub_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/addsub_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'addsub_0' (1#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/addsub_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'barrelshifter8_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/barrelshifter8_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'barrelshifter8_0' (2#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/barrelshifter8_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'andgate_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/andgate_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'andgate_0' (3#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/andgate_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'orgate_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/orgate_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'orgate_0' (4#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/orgate_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'notgate_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/notgate_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'notgate_0' (5#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/notgate_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'xorgate_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/xorgate_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'xorgate_0' (6#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/xorgate_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'muxnto1_0' [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/muxnto1_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'muxnto1_0' (7#1) [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/realtime/muxnto1_0_stub.v:7]
+WARNING: [Synth 8-3848] Net of in module/entity alu8_verilog does not have driver. [F:/VHDL/Ex_2/Ex_2.srcs/sources_1/new/alu8_verilog.v:29]
+INFO: [Synth 8-256] done synthesizing module 'alu8_verilog' (8#1) [F:/VHDL/Ex_2/Ex_2.srcs/sources_1/new/alu8_verilog.v:23]
+WARNING: [Synth 8-3331] design alu8_verilog has unconnected port of
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 336.156 ; gain = 164.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 336.156 ; gain = 164.746
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp/xorgate_0_in_context.xdc] for cell 'U6'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp/xorgate_0_in_context.xdc] for cell 'U6'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_2/orgate_0_in_context.xdc] for cell 'U4'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_2/orgate_0_in_context.xdc] for cell 'U4'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_3/notgate_0_in_context.xdc] for cell 'U5'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_3/notgate_0_in_context.xdc] for cell 'U5'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_4/muxnto1_0_in_context.xdc] for cell 'U7'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_4/muxnto1_0_in_context.xdc] for cell 'U7'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_5/barrelshifter8_0_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_5/barrelshifter8_0_in_context.xdc] for cell 'U2'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_6/andgate_0_in_context.xdc] for cell 'U3'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_6/andgate_0_in_context.xdc] for cell 'U3'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_7/addsub_0_in_context.xdc] for cell 'U1'
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/.Xil/Vivado-21648-/dcp_7/addsub_0_in_context.xdc] for cell 'U1'
+Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/VHDL/Ex_2/Ex_2.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 593.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "zf" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alu8_verilog 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "zf" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design alu8_verilog has unconnected port of
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 593.984 ; gain = 422.574
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 593.984 ; gain = 422.574
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 593.984 ; gain = 422.574
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 602.234 ; gain = 430.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 602.234 ; gain = 430.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |addsub_0         |         1|
+|2     |barrelshifter8_0 |         1|
+|3     |andgate_0        |         1|
+|4     |orgate_0         |         1|
+|5     |notgate_0        |         1|
+|6     |xorgate_0        |         1|
+|7     |muxnto1_0        |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |addsub_0         |     1|
+|2     |andgate_0        |     1|
+|3     |barrelshifter8_0 |     1|
+|4     |muxnto1_0        |     1|
+|5     |notgate_0        |     1|
+|6     |orgate_0         |     1|
+|7     |xorgate_0        |     1|
+|8     |LUT2             |     1|
+|9     |LUT3             |     4|
+|10    |LUT6             |     1|
+|11    |IBUF             |    20|
+|12    |OBUF             |    11|
+|13    |OBUFT            |     1|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    98|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 611.895 ; gain = 440.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 611.895 ; gain = 123.262
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 611.895 ; gain = 440.484
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 611.895 ; gain = 388.414
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 611.895 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 06 13:13:55 2020...

@@ -1,0 +1,4 @@
+Language File-Name    IP         Library         File-Path                                
+Verilog, xorgate.v,   xorgate_0, xil_defaultlib, ../../../ipstatic/sources_1/new/xorgate.v
+Verilog, xorgate_0.v, xorgate_0, xil_defaultlib, ../../../../ip/xorgate_0/sim/xorgate_0.v 
+Verilog, glbl.v,      *,         xil_defaultlib, glbl.v                                   

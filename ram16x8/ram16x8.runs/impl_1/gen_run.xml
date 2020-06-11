@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1465036297">
+  <File Type="OPT-DCP" Name="ram16x8_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="ram16x8_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="ram16x8_routed.dcp"/>
+  <File Type="PA-TCL" Name="ram16x8.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="ram16x8_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="ram16x8_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ram16x8.hwdef"/>
+  <File Type="PLACE-DCP" Name="ram16x8_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ram16x8_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ram16x8_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ram16x8_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ram16x8_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ram16x8_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ram16x8_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ram16x8_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ram16x8_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ram16x8_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="ram16x8.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="ram16x8_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="ram16x8_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ram16x8_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ram16x8_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ram16x8_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ram16x8_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ram16x8_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ram16x8_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ram16x8_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ram16x8_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ram16x8_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ram16x8_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ram16x8_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ram16x8_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ram16x8_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ram16x8_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="ram16x8.bit"/>
+  <File Type="BG-BIN" Name="ram16x8.bin"/>
+  <File Type="BITSTR-MSK" Name="ram16x8.msk"/>
+  <File Type="BITSTR-RBT" Name="ram16x8.rbt"/>
+  <File Type="BITSTR-NKY" Name="ram16x8.nky"/>
+  <File Type="BITSTR-BMM" Name="ram16x8_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ram16x8.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ram16x8.sysdef"/>
+  <File Type="BG-BGN" Name="ram16x8.bgn"/>
+  <File Type="BG-DRC" Name="ram16x8.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ram16x8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ram16x2-2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ram16x2-1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ram16x2-3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/ram16x2-4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ram16x8"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ram16x2_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="ram16x2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ram16x2_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="ram16x2_4"/>
+</GenRun>

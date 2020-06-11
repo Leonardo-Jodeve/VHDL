@@ -1,0 +1,9 @@
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/mux2.v" 
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/rshifter8.v" 
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/lshifter8.v" 
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/barrelshifter8.v" 
+verilog xil_defaultlib "../../../../ip/barrelshifter8_0_1/sim/barrelshifter8_0.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

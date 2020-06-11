@@ -1,0 +1,6 @@
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/xorgate.v" 
+verilog xil_defaultlib "../../../../ip/xorgate_0/sim/xorgate_0.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,4 @@
+Language File-Name    IP         Library         File-Path                                       
+Verilog, mux8to1.v,   mux8to1_0, xil_defaultlib, ../../../../ip/mux8to1_0/sources_1/new/mux8to1.v
+Verilog, mux8to1_0.v, mux8to1_0, xil_defaultlib, ../../../../ip/mux8to1_0/sim/mux8to1_0.v        
+Verilog, glbl.v,      *,         xil_defaultlib, glbl.v                                          

@@ -1,0 +1,4 @@
+Language File-Name    IP         Library         File-Path                                
+Verilog, andgate.v,   andgate_0, xil_defaultlib, ../../../ipstatic/sources_1/new/andgate.v
+Verilog, andgate_0.v, andgate_0, xil_defaultlib, ../../../../ip/andgate_0/sim/andgate_0.v 
+Verilog, glbl.v,      *,         xil_defaultlib, glbl.v                                   

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Jun 04 23:24:23 2016
+# Process ID: 6924
+# Log file: C:/sysclassfiles/orgnization/Ex_9/backup/ram16x8/vivado.log
+# Journal file: C:/sysclassfiles/orgnization/Ex_9/backup/ram16x8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/sysclassfiles/orgnization/Ex_9/backup/ram16x8/ram16x8.xpr
+launch_simulation
+source ram16x8_sim.tcl
+restart
+run 2 us
+close_sim

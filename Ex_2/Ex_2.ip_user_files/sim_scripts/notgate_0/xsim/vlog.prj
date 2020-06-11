@@ -1,0 +1,6 @@
+verilog xil_defaultlib "../../../../ip/notgate_0/sources_1/new/notgate.v" 
+verilog xil_defaultlib "../../../../ip/notgate_0/sim/notgate_0.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

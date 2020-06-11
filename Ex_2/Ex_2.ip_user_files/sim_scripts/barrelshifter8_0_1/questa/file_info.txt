@@ -1,0 +1,7 @@
+Language File-Name           IP                Library         File-Path                                               
+Verilog, mux2.v,             barrelshifter8_0, xil_defaultlib, ../../../ipstatic/sources_1/new/mux2.v                  
+Verilog, rshifter8.v,        barrelshifter8_0, xil_defaultlib, ../../../ipstatic/sources_1/new/rshifter8.v             
+Verilog, lshifter8.v,        barrelshifter8_0, xil_defaultlib, ../../../ipstatic/sources_1/new/lshifter8.v             
+Verilog, barrelshifter8.v,   barrelshifter8_0, xil_defaultlib, ../../../ipstatic/sources_1/new/barrelshifter8.v        
+Verilog, barrelshifter8_0.v, barrelshifter8_0, xil_defaultlib, ../../../../ip/barrelshifter8_0_1/sim/barrelshifter8_0.v
+Verilog, glbl.v,             *,                xil_defaultlib, glbl.v                                                  

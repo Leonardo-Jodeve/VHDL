@@ -1,0 +1,44 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Verilog/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 0c9540b6fe7b47e68a392ed072c5abe5 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu8_verilog_sim_behav xil_defaultlib.alu8_verilog_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port ovf on this module [F:/VHDL/Ex_2/Ex_2.srcs/sim_1/new/alu8_verilog_sim.v:34]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:39]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:47]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:54]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:55]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port d1 [F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v:57]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port c [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:72]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port d [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:73]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port e [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:74]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port f [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:75]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port g [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:76]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port h [F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v:77]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.addsub_0
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.rshifter8
+Compiling module xil_defaultlib.lshifter8
+Compiling module xil_defaultlib.barrelshifter8
+Compiling module xil_defaultlib.barrelshifter8_0
+Compiling module xil_defaultlib.andgate
+Compiling module xil_defaultlib.andgate_0
+Compiling module xil_defaultlib.orgate
+Compiling module xil_defaultlib.orgate_0
+Compiling module xil_defaultlib.notgate
+Compiling module xil_defaultlib.notgate_0
+Compiling module xil_defaultlib.xorgate
+Compiling module xil_defaultlib.xorgate_0
+Compiling module xil_defaultlib.muxnto1(Sel_Width=3)
+Compiling module xil_defaultlib.muxnto1_0
+Compiling module xil_defaultlib.alu8_verilog
+Compiling module xil_defaultlib.alu8_verilog_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot alu8_verilog_sim_behav

@@ -1,0 +1,7 @@
+Running: xsim.dir/alu8_verilog_sim_behav/xsimk.exe -simmode gui -wdb alu8_verilog_sim_behav.wdb -simrunnum 0 -socket 2258
+Design successfully loaded
+Design Loading Memory Usage: 21984 KB (Peak: 21984 KB)
+Design Loading CPU Usage: 233 ms
+Simulation completed
+Simulation Memory Usage: 22452 KB (Peak: 22452 KB)
+Simulation CPU Usage: 233 ms

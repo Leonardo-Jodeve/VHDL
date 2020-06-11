@@ -1,0 +1,6 @@
+verilog xil_defaultlib "../../../ipstatic/sources_1/new/addsub.v" 
+verilog xil_defaultlib "../../../../ip/addsub_0/sim/addsub_0.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

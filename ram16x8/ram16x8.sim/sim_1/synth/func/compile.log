@@ -1,0 +1,35 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/sysclassfiles/orgnization/Ex_9/ram16x8/ram16x8.sim/sim_1/synth/func/ram16x8_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x2_1
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module ram16x2_1_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module ram16x2_2
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module ram16x2_2_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module ram16x2_3
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module ram16x2_3_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module ram16x2_4
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module ram16x2_4_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module ram16x8
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/sysclassfiles/orgnization/Ex_9/ram16x8/ram16x8.srcs/sim_1/new/ram16x8_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x8_sim
+ERROR: [VRFC 10-91] datain is not declared [C:/sysclassfiles/orgnization/Ex_9/ram16x8/ram16x8.srcs/sim_1/new/ram16x8_sim.v:43]
+ERROR: [VRFC 10-1040] module ram16x8_sim ignored due to previous errors [C:/sysclassfiles/orgnization/Ex_9/ram16x8/ram16x8.srcs/sim_1/new/ram16x8_sim.v:23]

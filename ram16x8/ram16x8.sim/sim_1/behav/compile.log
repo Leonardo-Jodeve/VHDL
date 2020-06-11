@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v" into library blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module STATE_LOGIC_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_muxf7_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_clr_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_pre_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_ce_clr_v8_2
+INFO: [VRFC 10-311] analyzing module write_netlist_v8_2
+INFO: [VRFC 10-311] analyzing module read_netlist_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_write_wrapper_beh_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_read_wrapper_beh_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_regs_fwd_v8_2
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_output_stage
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_softecc_output_reg_stage
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_mem_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_2
+INFO: [VRFC 10-2458] undeclared symbol CLKA, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3727]
+INFO: [VRFC 10-2458] undeclared symbol RSTA, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3728]
+INFO: [VRFC 10-2458] undeclared symbol ENA, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3729]
+INFO: [VRFC 10-2458] undeclared symbol REGCEA, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3730]
+INFO: [VRFC 10-2458] undeclared symbol CLKB, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3731]
+INFO: [VRFC 10-2458] undeclared symbol RSTB, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3732]
+INFO: [VRFC 10-2458] undeclared symbol ENB, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3733]
+INFO: [VRFC 10-2458] undeclared symbol REGCEB, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3734]
+INFO: [VRFC 10-2458] undeclared symbol INJECTSBITERR, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3735]
+INFO: [VRFC 10-2458] undeclared symbol INJECTDBITERR, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3736]
+INFO: [VRFC 10-2458] undeclared symbol S_ACLK, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3741]
+INFO: [VRFC 10-2458] undeclared symbol S_ARESETN, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3742]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_AWVALID, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3743]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_WLAST, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3745]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_WVALID, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3746]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_BREADY, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3749]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_ARVALID, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3750]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_RREADY, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3754]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_INJECTSBITERR, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3755]
+INFO: [VRFC 10-2458] undeclared symbol S_AXI_INJECTDBITERR, assumed default net type wire [F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v:3756]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_4/sim/ram16x2_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x2_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_3/sim/ram16x2_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x2_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_2/sim/ram16x2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/ip/ram16x2_1/sim/ram16x2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sources_1/new/ram16x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.srcs/sim_1/new/ram16x8_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram16x8_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/ram16x8/ram16x8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

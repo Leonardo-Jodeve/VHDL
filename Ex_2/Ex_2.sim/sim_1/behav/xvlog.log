@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/xorgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xorgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/xorgate_0/sim/xorgate_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xorgate_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/orgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/orgate_0/sim/orgate_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orgate_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/notgate_0/sources_1/new/notgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module notgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/notgate_0/sim/notgate_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module notgate_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/muxnto1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxnto1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/muxnto1_0/sim/muxnto1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxnto1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/rshifter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rshifter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/lshifter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lshifter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/barrelshifter8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module barrelshifter8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/barrelshifter8_0_1/sim/barrelshifter8_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module barrelshifter8_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/andgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/andgate_0/sim/andgate_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.ip_user_files/ipstatic/sources_1/new/addsub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/ip/addsub_0/sim/addsub_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.srcs/sources_1/new/alu8_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8_verilog
+INFO: [VRFC 10-2458] undeclared symbol ovf, assumed default net type wire [F:/VHDL/Ex_2/Ex_2.srcs/sources_1/new/alu8_verilog.v:49]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.srcs/sim_1/new/alu8_verilog_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8_verilog_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VHDL/Ex_2/Ex_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

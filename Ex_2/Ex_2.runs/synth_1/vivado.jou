@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Jun 06 13:13:19 2020
+# Process ID: 21648
+# Current directory: F:/VHDL/Ex_2/Ex_2.runs/synth_1
+# Command line: vivado.exe -log alu8_verilog.vds -mode batch -messageDb vivado.pb -notrace -source alu8_verilog.tcl
+# Log file: F:/VHDL/Ex_2/Ex_2.runs/synth_1/alu8_verilog.vds
+# Journal file: F:/VHDL/Ex_2/Ex_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source alu8_verilog.tcl -notrace

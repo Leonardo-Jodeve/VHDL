@@ -1,0 +1,4 @@
+Language File-Name   IP        Library         File-Path                               
+Verilog, addsub.v,   addsub_0, xil_defaultlib, ../../../ipstatic/sources_1/new/addsub.v
+Verilog, addsub_0.v, addsub_0, xil_defaultlib, ../../../../ip/addsub_0/sim/addsub_0.v  
+Verilog, glbl.v,     *,        xil_defaultlib, glbl.v                                  

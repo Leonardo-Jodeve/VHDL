@@ -1,0 +1,4 @@
+Language File-Name    IP         Library         File-Path                                
+Verilog, muxnto1.v,   muxnto1_0, xil_defaultlib, ../../../ipstatic/sources_1/new/muxnto1.v
+Verilog, muxnto1_0.v, muxnto1_0, xil_defaultlib, ../../../../ip/muxnto1_0/sim/muxnto1_0.v 
+Verilog, glbl.v,      *,         xil_defaultlib, glbl.v                                   

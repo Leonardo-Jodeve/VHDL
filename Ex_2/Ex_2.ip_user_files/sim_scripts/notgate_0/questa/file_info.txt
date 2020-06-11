@@ -1,0 +1,4 @@
+Language File-Name    IP         Library         File-Path                                       
+Verilog, notgate.v,   notgate_0, xil_defaultlib, ../../../../ip/notgate_0/sources_1/new/notgate.v
+Verilog, notgate_0.v, notgate_0, xil_defaultlib, ../../../../ip/notgate_0/sim/notgate_0.v        
+Verilog, glbl.v,      *,         xil_defaultlib, glbl.v                                          
