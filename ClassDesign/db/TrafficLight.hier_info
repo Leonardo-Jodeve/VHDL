@@ -1,0 +1,8 @@
+|TrafficLight
+TimeLight2[6] <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+test[0] => ~NO_FANOUT~
+test[1] => ~NO_FANOUT~
+test[2] => ~NO_FANOUT~
+test[3] => ~NO_FANOUT~
+
+
