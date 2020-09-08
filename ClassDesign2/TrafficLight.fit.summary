@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue Sep 08 08:46:47 2020
+Fitter Status : Successful - Tue Sep 08 19:47:31 2020
 Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
 Revision Name : TrafficLight
 Top-level Entity Name : TrafficLight
 Family : Cyclone
 Device : EP1C12Q240C8
 Timing Models : Final
-Total logic elements : 10 / 12,060 ( < 1 % )
-Total pins : 15 / 173 ( 9 % )
+Total logic elements : 37 / 12,060 ( < 1 % )
+Total pins : 23 / 173 ( 13 % )
 Total virtual pins : 0
 Total memory bits : 0 / 239,616 ( 0 % )
 Total PLLs : 0 / 2 ( 0 % )

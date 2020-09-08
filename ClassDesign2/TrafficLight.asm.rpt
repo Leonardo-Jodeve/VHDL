@@ -1,5 +1,5 @@
 Assembler report for TrafficLight
-Tue Sep 08 08:46:49 2020
+Tue Sep 08 19:47:33 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Sep 08 08:46:49 2020 ;
+; Assembler Status      ; Successful - Tue Sep 08 19:47:33 2020 ;
 ; Revision Name         ; TrafficLight                          ;
 ; Top-level Entity Name ; TrafficLight                          ;
 ; Family                ; Cyclone                               ;
@@ -93,7 +93,7 @@ applicable agreement for further details.
 +----------------+------------------------------------------------+
 ; Device         ; EP1C12Q240C8                                   ;
 ; JTAG usercode  ; 0xFFFFFFFF                                     ;
-; Checksum       ; 0x00119849                                     ;
+; Checksum       ; 0x0011F92B                                     ;
 +----------------+------------------------------------------------+
 
 
@@ -104,7 +104,7 @@ applicable agreement for further details.
 +--------------------+--------------------------------------------+
 ; Device             ; EPCS4                                      ;
 ; JTAG usercode      ; 0x00000000                                 ;
-; Checksum           ; 0x06C25993                                 ;
+; Checksum           ; 0x06C148D6                                 ;
 ; Compression Ratio  ; 3                                          ;
 +--------------------+--------------------------------------------+
 
@@ -115,13 +115,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Sep 08 08:46:48 2020
+    Info: Processing started: Tue Sep 08 19:47:32 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off TrafficLight -c TrafficLight
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 233 megabytes
-    Info: Processing ended: Tue Sep 08 08:46:49 2020
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Tue Sep 08 19:47:34 2020
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,5 +1,5 @@
 Simulator report for TrafficLight
-Tue Sep 08 08:47:12 2020
+Tue Sep 08 19:58:38 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -45,9 +45,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 ms       ;
-; Simulation Netlist Size     ; 113 nodes    ;
-; Simulation Coverage         ;      67.26 % ;
-; Total Number of Transitions ; 1135409      ;
+; Simulation Netlist Size     ; 199 nodes    ;
+; Simulation Coverage         ;      86.87 % ;
+; Total Number of Transitions ; 1289998      ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone      ;
 +-----------------------------+--------------+
@@ -93,191 +93,265 @@ Please use Quartus II to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      67.26 % ;
-; Total nodes checked                                 ; 113          ;
-; Total output ports checked                          ; 113          ;
-; Total output ports with complete 1/0-value coverage ; 76           ;
-; Total output ports with no 1/0-value coverage       ; 37           ;
-; Total output ports with no 1-value coverage         ; 37           ;
-; Total output ports with no 0-value coverage         ; 37           ;
+; Total coverage as a percentage                      ;      86.87 % ;
+; Total nodes checked                                 ; 199          ;
+; Total output ports checked                          ; 198          ;
+; Total output ports with complete 1/0-value coverage ; 172          ;
+; Total output ports with no 1/0-value coverage       ; 26           ;
+; Total output ports with no 1-value coverage         ; 26           ;
+; Total output ports with no 0-value coverage         ; 26           ;
 +-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+----------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                      ;
-+-------------------------------+-------------------------------+------------------+
-; Node Name                     ; Output Port Name              ; Output Port Type ;
-+-------------------------------+-------------------------------+------------------+
-; |TrafficLight|inst47          ; |TrafficLight|inst47          ; out0             ;
-; |TrafficLight|inst7           ; |TrafficLight|inst7           ; out0             ;
-; |TrafficLight|CLK             ; |TrafficLight|CLK             ; out              ;
-; |TrafficLight|inst8           ; |TrafficLight|inst8           ; out0             ;
-; |TrafficLight|1               ; |TrafficLight|1               ; pin_out          ;
-; |TrafficLight|2               ; |TrafficLight|2               ; pin_out          ;
-; |TrafficLight|3               ; |TrafficLight|3               ; pin_out          ;
-; |TrafficLight|5               ; |TrafficLight|5               ; pin_out          ;
-; |TrafficLight|6               ; |TrafficLight|6               ; pin_out          ;
-; |TrafficLight|7               ; |TrafficLight|7               ; pin_out          ;
-; |TrafficLight|8               ; |TrafficLight|8               ; pin_out          ;
-; |TrafficLight|74190:inst37|58 ; |TrafficLight|74190:inst37|58 ; out0             ;
-; |TrafficLight|74190:inst37|51 ; |TrafficLight|74190:inst37|51 ; regout           ;
-; |TrafficLight|74190:inst37|47 ; |TrafficLight|74190:inst37|47 ; out0             ;
-; |TrafficLight|74190:inst37|39 ; |TrafficLight|74190:inst37|39 ; out0             ;
-; |TrafficLight|74190:inst37|48 ; |TrafficLight|74190:inst37|48 ; regout           ;
-; |TrafficLight|74190:inst37|25 ; |TrafficLight|74190:inst37|25 ; out0             ;
-; |TrafficLight|74190:inst37|49 ; |TrafficLight|74190:inst37|49 ; regout           ;
-; |TrafficLight|74190:inst37|45 ; |TrafficLight|74190:inst37|45 ; out0             ;
-; |TrafficLight|74190:inst37|63 ; |TrafficLight|74190:inst37|63 ; out0             ;
-; |TrafficLight|74190:inst37|57 ; |TrafficLight|74190:inst37|57 ; out0             ;
-; |TrafficLight|74190:inst37|50 ; |TrafficLight|74190:inst37|50 ; regout           ;
-; |TrafficLight|74190:inst37|21 ; |TrafficLight|74190:inst37|21 ; out0             ;
-; |TrafficLight|74190:inst37|46 ; |TrafficLight|74190:inst37|46 ; out0             ;
-; |TrafficLight|74190:inst37|40 ; |TrafficLight|74190:inst37|40 ; out0             ;
-; |TrafficLight|74190:inst37|3  ; |TrafficLight|74190:inst37|3  ; out0             ;
-; |TrafficLight|74190:inst36|58 ; |TrafficLight|74190:inst36|58 ; out0             ;
-; |TrafficLight|74190:inst36|47 ; |TrafficLight|74190:inst36|47 ; out0             ;
-; |TrafficLight|74190:inst36|39 ; |TrafficLight|74190:inst36|39 ; out0             ;
-; |TrafficLight|74190:inst36|48 ; |TrafficLight|74190:inst36|48 ; regout           ;
-; |TrafficLight|74190:inst36|25 ; |TrafficLight|74190:inst36|25 ; out0             ;
-; |TrafficLight|74190:inst36|26 ; |TrafficLight|74190:inst36|26 ; out0             ;
-; |TrafficLight|74190:inst36|49 ; |TrafficLight|74190:inst36|49 ; regout           ;
-; |TrafficLight|74190:inst36|23 ; |TrafficLight|74190:inst36|23 ; out0             ;
-; |TrafficLight|74190:inst36|45 ; |TrafficLight|74190:inst36|45 ; out0             ;
-; |TrafficLight|74190:inst36|63 ; |TrafficLight|74190:inst36|63 ; out0             ;
-; |TrafficLight|74190:inst36|57 ; |TrafficLight|74190:inst36|57 ; out0             ;
-; |TrafficLight|74190:inst36|50 ; |TrafficLight|74190:inst36|50 ; regout           ;
-; |TrafficLight|74190:inst36|21 ; |TrafficLight|74190:inst36|21 ; out0             ;
-; |TrafficLight|74190:inst36|22 ; |TrafficLight|74190:inst36|22 ; out0             ;
-; |TrafficLight|74190:inst36|46 ; |TrafficLight|74190:inst36|46 ; out0             ;
-; |TrafficLight|74190:inst36|40 ; |TrafficLight|74190:inst36|40 ; out0             ;
-; |TrafficLight|74190:inst36|3  ; |TrafficLight|74190:inst36|3  ; out0             ;
-; |TrafficLight|74190:inst35|58 ; |TrafficLight|74190:inst35|58 ; out0             ;
-; |TrafficLight|74190:inst35|51 ; |TrafficLight|74190:inst35|51 ; regout           ;
-; |TrafficLight|74190:inst35|47 ; |TrafficLight|74190:inst35|47 ; out0             ;
-; |TrafficLight|74190:inst35|39 ; |TrafficLight|74190:inst35|39 ; out0             ;
-; |TrafficLight|74190:inst35|48 ; |TrafficLight|74190:inst35|48 ; regout           ;
-; |TrafficLight|74190:inst35|25 ; |TrafficLight|74190:inst35|25 ; out0             ;
-; |TrafficLight|74190:inst35|26 ; |TrafficLight|74190:inst35|26 ; out0             ;
-; |TrafficLight|74190:inst35|49 ; |TrafficLight|74190:inst35|49 ; regout           ;
-; |TrafficLight|74190:inst35|45 ; |TrafficLight|74190:inst35|45 ; out0             ;
-; |TrafficLight|74190:inst35|63 ; |TrafficLight|74190:inst35|63 ; out0             ;
-; |TrafficLight|74190:inst35|57 ; |TrafficLight|74190:inst35|57 ; out0             ;
-; |TrafficLight|74190:inst35|50 ; |TrafficLight|74190:inst35|50 ; regout           ;
-; |TrafficLight|74190:inst35|21 ; |TrafficLight|74190:inst35|21 ; out0             ;
-; |TrafficLight|74190:inst35|22 ; |TrafficLight|74190:inst35|22 ; out0             ;
-; |TrafficLight|74190:inst35|46 ; |TrafficLight|74190:inst35|46 ; out0             ;
-; |TrafficLight|74190:inst35|40 ; |TrafficLight|74190:inst35|40 ; out0             ;
-; |TrafficLight|74190:inst35|3  ; |TrafficLight|74190:inst35|3  ; out0             ;
-; |TrafficLight|74190:inst34|58 ; |TrafficLight|74190:inst34|58 ; out0             ;
-; |TrafficLight|74190:inst34|47 ; |TrafficLight|74190:inst34|47 ; out0             ;
-; |TrafficLight|74190:inst34|39 ; |TrafficLight|74190:inst34|39 ; out0             ;
-; |TrafficLight|74190:inst34|48 ; |TrafficLight|74190:inst34|48 ; regout           ;
-; |TrafficLight|74190:inst34|25 ; |TrafficLight|74190:inst34|25 ; out0             ;
-; |TrafficLight|74190:inst34|49 ; |TrafficLight|74190:inst34|49 ; regout           ;
-; |TrafficLight|74190:inst34|23 ; |TrafficLight|74190:inst34|23 ; out0             ;
-; |TrafficLight|74190:inst34|45 ; |TrafficLight|74190:inst34|45 ; out0             ;
-; |TrafficLight|74190:inst34|63 ; |TrafficLight|74190:inst34|63 ; out0             ;
-; |TrafficLight|74190:inst34|57 ; |TrafficLight|74190:inst34|57 ; out0             ;
-; |TrafficLight|74190:inst34|50 ; |TrafficLight|74190:inst34|50 ; regout           ;
-; |TrafficLight|74190:inst34|21 ; |TrafficLight|74190:inst34|21 ; out0             ;
-; |TrafficLight|74190:inst34|22 ; |TrafficLight|74190:inst34|22 ; out0             ;
-; |TrafficLight|74190:inst34|46 ; |TrafficLight|74190:inst34|46 ; out0             ;
-; |TrafficLight|74190:inst34|40 ; |TrafficLight|74190:inst34|40 ; out0             ;
-; |TrafficLight|74190:inst34|3  ; |TrafficLight|74190:inst34|3  ; out0             ;
-+-------------------------------+-------------------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                            ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |TrafficLight|Main_Red                                                           ; |TrafficLight|Main_Red                                                           ; pin_out          ;
+; |TrafficLight|inst32                                                             ; |TrafficLight|inst32                                                             ; out0             ;
+; |TrafficLight|inst47                                                             ; |TrafficLight|inst47                                                             ; out0             ;
+; |TrafficLight|inst7                                                              ; |TrafficLight|inst7                                                              ; out0             ;
+; |TrafficLight|CLK                                                                ; |TrafficLight|CLK                                                                ; out              ;
+; |TrafficLight|inst16                                                             ; |TrafficLight|inst16                                                             ; out0             ;
+; |TrafficLight|inst8                                                              ; |TrafficLight|inst8                                                              ; out0             ;
+; |TrafficLight|inst5                                                              ; |TrafficLight|inst5                                                              ; out0             ;
+; |TrafficLight|Main_Yellow                                                        ; |TrafficLight|Main_Yellow                                                        ; pin_out          ;
+; |TrafficLight|Main_Green                                                         ; |TrafficLight|Main_Green                                                         ; pin_out          ;
+; |TrafficLight|Vice_Red                                                           ; |TrafficLight|Vice_Red                                                           ; pin_out          ;
+; |TrafficLight|inst33                                                             ; |TrafficLight|inst33                                                             ; out0             ;
+; |TrafficLight|Vice_Yellow                                                        ; |TrafficLight|Vice_Yellow                                                        ; pin_out          ;
+; |TrafficLight|Vice_Green                                                         ; |TrafficLight|Vice_Green                                                         ; pin_out          ;
+; |TrafficLight|1                                                                  ; |TrafficLight|1                                                                  ; pin_out          ;
+; |TrafficLight|2                                                                  ; |TrafficLight|2                                                                  ; pin_out          ;
+; |TrafficLight|3                                                                  ; |TrafficLight|3                                                                  ; pin_out          ;
+; |TrafficLight|5                                                                  ; |TrafficLight|5                                                                  ; pin_out          ;
+; |TrafficLight|6                                                                  ; |TrafficLight|6                                                                  ; pin_out          ;
+; |TrafficLight|7                                                                  ; |TrafficLight|7                                                                  ; pin_out          ;
+; |TrafficLight|8                                                                  ; |TrafficLight|8                                                                  ; pin_out          ;
+; |TrafficLight|9                                                                  ; |TrafficLight|9                                                                  ; pin_out          ;
+; |TrafficLight|10                                                                 ; |TrafficLight|10                                                                 ; pin_out          ;
+; |TrafficLight|11                                                                 ; |TrafficLight|11                                                                 ; pin_out          ;
+; |TrafficLight|13                                                                 ; |TrafficLight|13                                                                 ; pin_out          ;
+; |TrafficLight|14                                                                 ; |TrafficLight|14                                                                 ; pin_out          ;
+; |TrafficLight|15                                                                 ; |TrafficLight|15                                                                 ; pin_out          ;
+; |TrafficLight|16                                                                 ; |TrafficLight|16                                                                 ; pin_out          ;
+; |TrafficLight|74190:inst37|58                                                    ; |TrafficLight|74190:inst37|58                                                    ; out0             ;
+; |TrafficLight|74190:inst37|51                                                    ; |TrafficLight|74190:inst37|51                                                    ; regout           ;
+; |TrafficLight|74190:inst37|47                                                    ; |TrafficLight|74190:inst37|47                                                    ; out0             ;
+; |TrafficLight|74190:inst37|39                                                    ; |TrafficLight|74190:inst37|39                                                    ; out0             ;
+; |TrafficLight|74190:inst37|48                                                    ; |TrafficLight|74190:inst37|48                                                    ; regout           ;
+; |TrafficLight|74190:inst37|25                                                    ; |TrafficLight|74190:inst37|25                                                    ; out0             ;
+; |TrafficLight|74190:inst37|26                                                    ; |TrafficLight|74190:inst37|26                                                    ; out0             ;
+; |TrafficLight|74190:inst37|49                                                    ; |TrafficLight|74190:inst37|49                                                    ; regout           ;
+; |TrafficLight|74190:inst37|45                                                    ; |TrafficLight|74190:inst37|45                                                    ; out0             ;
+; |TrafficLight|74190:inst37|63                                                    ; |TrafficLight|74190:inst37|63                                                    ; out0             ;
+; |TrafficLight|74190:inst37|57                                                    ; |TrafficLight|74190:inst37|57                                                    ; out0             ;
+; |TrafficLight|74190:inst37|50                                                    ; |TrafficLight|74190:inst37|50                                                    ; regout           ;
+; |TrafficLight|74190:inst37|21                                                    ; |TrafficLight|74190:inst37|21                                                    ; out0             ;
+; |TrafficLight|74190:inst37|22                                                    ; |TrafficLight|74190:inst37|22                                                    ; out0             ;
+; |TrafficLight|74190:inst37|46                                                    ; |TrafficLight|74190:inst37|46                                                    ; out0             ;
+; |TrafficLight|74190:inst37|40                                                    ; |TrafficLight|74190:inst37|40                                                    ; out0             ;
+; |TrafficLight|74190:inst37|3                                                     ; |TrafficLight|74190:inst37|3                                                     ; out0             ;
+; |TrafficLight|74190:inst36|58                                                    ; |TrafficLight|74190:inst36|58                                                    ; out0             ;
+; |TrafficLight|74190:inst36|47                                                    ; |TrafficLight|74190:inst36|47                                                    ; out0             ;
+; |TrafficLight|74190:inst36|39                                                    ; |TrafficLight|74190:inst36|39                                                    ; out0             ;
+; |TrafficLight|74190:inst36|48                                                    ; |TrafficLight|74190:inst36|48                                                    ; regout           ;
+; |TrafficLight|74190:inst36|25                                                    ; |TrafficLight|74190:inst36|25                                                    ; out0             ;
+; |TrafficLight|74190:inst36|26                                                    ; |TrafficLight|74190:inst36|26                                                    ; out0             ;
+; |TrafficLight|74190:inst36|49                                                    ; |TrafficLight|74190:inst36|49                                                    ; regout           ;
+; |TrafficLight|74190:inst36|23                                                    ; |TrafficLight|74190:inst36|23                                                    ; out0             ;
+; |TrafficLight|74190:inst36|24                                                    ; |TrafficLight|74190:inst36|24                                                    ; out0             ;
+; |TrafficLight|74190:inst36|45                                                    ; |TrafficLight|74190:inst36|45                                                    ; out0             ;
+; |TrafficLight|74190:inst36|63                                                    ; |TrafficLight|74190:inst36|63                                                    ; out0             ;
+; |TrafficLight|74190:inst36|57                                                    ; |TrafficLight|74190:inst36|57                                                    ; out0             ;
+; |TrafficLight|74190:inst36|50                                                    ; |TrafficLight|74190:inst36|50                                                    ; regout           ;
+; |TrafficLight|74190:inst36|21                                                    ; |TrafficLight|74190:inst36|21                                                    ; out0             ;
+; |TrafficLight|74190:inst36|22                                                    ; |TrafficLight|74190:inst36|22                                                    ; out0             ;
+; |TrafficLight|74190:inst36|46                                                    ; |TrafficLight|74190:inst36|46                                                    ; out0             ;
+; |TrafficLight|74190:inst36|40                                                    ; |TrafficLight|74190:inst36|40                                                    ; out0             ;
+; |TrafficLight|74190:inst36|3                                                     ; |TrafficLight|74190:inst36|3                                                     ; out0             ;
+; |TrafficLight|74190:inst35|58                                                    ; |TrafficLight|74190:inst35|58                                                    ; out0             ;
+; |TrafficLight|74190:inst35|51                                                    ; |TrafficLight|74190:inst35|51                                                    ; regout           ;
+; |TrafficLight|74190:inst35|47                                                    ; |TrafficLight|74190:inst35|47                                                    ; out0             ;
+; |TrafficLight|74190:inst35|39                                                    ; |TrafficLight|74190:inst35|39                                                    ; out0             ;
+; |TrafficLight|74190:inst35|48                                                    ; |TrafficLight|74190:inst35|48                                                    ; regout           ;
+; |TrafficLight|74190:inst35|25                                                    ; |TrafficLight|74190:inst35|25                                                    ; out0             ;
+; |TrafficLight|74190:inst35|26                                                    ; |TrafficLight|74190:inst35|26                                                    ; out0             ;
+; |TrafficLight|74190:inst35|49                                                    ; |TrafficLight|74190:inst35|49                                                    ; regout           ;
+; |TrafficLight|74190:inst35|45                                                    ; |TrafficLight|74190:inst35|45                                                    ; out0             ;
+; |TrafficLight|74190:inst35|63                                                    ; |TrafficLight|74190:inst35|63                                                    ; out0             ;
+; |TrafficLight|74190:inst35|57                                                    ; |TrafficLight|74190:inst35|57                                                    ; out0             ;
+; |TrafficLight|74190:inst35|50                                                    ; |TrafficLight|74190:inst35|50                                                    ; regout           ;
+; |TrafficLight|74190:inst35|21                                                    ; |TrafficLight|74190:inst35|21                                                    ; out0             ;
+; |TrafficLight|74190:inst35|22                                                    ; |TrafficLight|74190:inst35|22                                                    ; out0             ;
+; |TrafficLight|74190:inst35|46                                                    ; |TrafficLight|74190:inst35|46                                                    ; out0             ;
+; |TrafficLight|74190:inst35|40                                                    ; |TrafficLight|74190:inst35|40                                                    ; out0             ;
+; |TrafficLight|74190:inst35|3                                                     ; |TrafficLight|74190:inst35|3                                                     ; out0             ;
+; |TrafficLight|delay:inst|dataout                                                 ; |TrafficLight|delay:inst|dataout                                                 ; regout           ;
+; |TrafficLight|delay:inst|ram                                                     ; |TrafficLight|delay:inst|ram                                                     ; regout           ;
+; |TrafficLight|74190:inst34|58                                                    ; |TrafficLight|74190:inst34|58                                                    ; out0             ;
+; |TrafficLight|74190:inst34|47                                                    ; |TrafficLight|74190:inst34|47                                                    ; out0             ;
+; |TrafficLight|74190:inst34|39                                                    ; |TrafficLight|74190:inst34|39                                                    ; out0             ;
+; |TrafficLight|74190:inst34|48                                                    ; |TrafficLight|74190:inst34|48                                                    ; regout           ;
+; |TrafficLight|74190:inst34|25                                                    ; |TrafficLight|74190:inst34|25                                                    ; out0             ;
+; |TrafficLight|74190:inst34|26                                                    ; |TrafficLight|74190:inst34|26                                                    ; out0             ;
+; |TrafficLight|74190:inst34|49                                                    ; |TrafficLight|74190:inst34|49                                                    ; regout           ;
+; |TrafficLight|74190:inst34|23                                                    ; |TrafficLight|74190:inst34|23                                                    ; out0             ;
+; |TrafficLight|74190:inst34|24                                                    ; |TrafficLight|74190:inst34|24                                                    ; out0             ;
+; |TrafficLight|74190:inst34|45                                                    ; |TrafficLight|74190:inst34|45                                                    ; out0             ;
+; |TrafficLight|74190:inst34|63                                                    ; |TrafficLight|74190:inst34|63                                                    ; out0             ;
+; |TrafficLight|74190:inst34|57                                                    ; |TrafficLight|74190:inst34|57                                                    ; out0             ;
+; |TrafficLight|74190:inst34|50                                                    ; |TrafficLight|74190:inst34|50                                                    ; regout           ;
+; |TrafficLight|74190:inst34|21                                                    ; |TrafficLight|74190:inst34|21                                                    ; out0             ;
+; |TrafficLight|74190:inst34|22                                                    ; |TrafficLight|74190:inst34|22                                                    ; out0             ;
+; |TrafficLight|74190:inst34|46                                                    ; |TrafficLight|74190:inst34|46                                                    ; out0             ;
+; |TrafficLight|74190:inst34|40                                                    ; |TrafficLight|74190:inst34|40                                                    ; out0             ;
+; |TrafficLight|74190:inst34|3                                                     ; |TrafficLight|74190:inst34|3                                                     ; out0             ;
+; |TrafficLight|74160:inst21|9                                                     ; |TrafficLight|74160:inst21|9                                                     ; regout           ;
+; |TrafficLight|74160:inst21|13                                                    ; |TrafficLight|74160:inst21|13                                                    ; out0             ;
+; |TrafficLight|74160:inst21|49                                                    ; |TrafficLight|74160:inst21|49                                                    ; out0             ;
+; |TrafficLight|74160:inst21|46                                                    ; |TrafficLight|74160:inst21|46                                                    ; out0             ;
+; |TrafficLight|74160:inst21|8                                                     ; |TrafficLight|74160:inst21|8                                                     ; regout           ;
+; |TrafficLight|74160:inst21|12                                                    ; |TrafficLight|74160:inst21|12                                                    ; out0             ;
+; |TrafficLight|74160:inst21|28                                                    ; |TrafficLight|74160:inst21|28                                                    ; out0             ;
+; |TrafficLight|74160:inst21|7                                                     ; |TrafficLight|74160:inst21|7                                                     ; regout           ;
+; |TrafficLight|74160:inst21|11                                                    ; |TrafficLight|74160:inst21|11                                                    ; out0             ;
+; |TrafficLight|74160:inst21|50                                                    ; |TrafficLight|74160:inst21|50                                                    ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~1              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~1              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~3              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~3              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~5              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~5              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~6              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~6              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~7              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~7              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~8              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~8              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~9              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~9              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~11             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~11             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~13             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~13             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~14             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~14             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~15             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~15             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~16             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~16             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~1 ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~1 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]   ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]   ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~1              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~1              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~3              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~3              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~5              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~5              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~6              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~6              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~7              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~7              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~8              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~8              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~9              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~9              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~11             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~11             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~13             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~13             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~14             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~14             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~15             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~15             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~16             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~16             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~17             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~17             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]   ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]   ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~1              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~1              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~3              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~3              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~6              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~6              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~7              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~7              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~8              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~8              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~9              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~9              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~11             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~11             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~14             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~14             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~15             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~15             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~16             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~16             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~17             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~17             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~1 ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~1 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]   ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]   ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~1              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~1              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~3              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~3              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~5              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~5              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~6              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~6              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~7              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~7              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~8              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~8              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~9              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~9              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~11             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~11             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~13             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~13             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~14             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~14             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~15             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~15             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~16             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~16             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~17             ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~17             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~1 ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~1 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]   ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]   ; out0             ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+----------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                         ;
-+-------------------------------+-------------------------------+------------------+
-; Node Name                     ; Output Port Name              ; Output Port Type ;
-+-------------------------------+-------------------------------+------------------+
-; |TrafficLight|Main_Red        ; |TrafficLight|Main_Red        ; pin_out          ;
-; |TrafficLight|inst32          ; |TrafficLight|inst32          ; out0             ;
-; |TrafficLight|inst15          ; |TrafficLight|inst15          ; out0             ;
-; |TrafficLight|inst13          ; |TrafficLight|inst13          ; out0             ;
-; |TrafficLight|inst10          ; |TrafficLight|inst10          ; out0             ;
-; |TrafficLight|inst46          ; |TrafficLight|inst46          ; out0             ;
-; |TrafficLight|inst11          ; |TrafficLight|inst11          ; out0             ;
-; |TrafficLight|inst            ; |TrafficLight|inst            ; out0             ;
-; |TrafficLight|Main_Yellow     ; |TrafficLight|Main_Yellow     ; pin_out          ;
-; |TrafficLight|Main_Green      ; |TrafficLight|Main_Green      ; pin_out          ;
-; |TrafficLight|Vice_Red        ; |TrafficLight|Vice_Red        ; pin_out          ;
-; |TrafficLight|inst33          ; |TrafficLight|inst33          ; out0             ;
-; |TrafficLight|Vice_Yellow     ; |TrafficLight|Vice_Yellow     ; pin_out          ;
-; |TrafficLight|Vice_Green      ; |TrafficLight|Vice_Green      ; pin_out          ;
-; |TrafficLight|4               ; |TrafficLight|4               ; pin_out          ;
-; |TrafficLight|74190:inst37|26 ; |TrafficLight|74190:inst37|26 ; out0             ;
-; |TrafficLight|74190:inst37|22 ; |TrafficLight|74190:inst37|22 ; out0             ;
-; |TrafficLight|74190:inst36|51 ; |TrafficLight|74190:inst36|51 ; regout           ;
-; |TrafficLight|74190:inst36|24 ; |TrafficLight|74190:inst36|24 ; out0             ;
-; |TrafficLight|74190:inst34|51 ; |TrafficLight|74190:inst34|51 ; regout           ;
-; |TrafficLight|74190:inst34|26 ; |TrafficLight|74190:inst34|26 ; out0             ;
-; |TrafficLight|74190:inst34|24 ; |TrafficLight|74190:inst34|24 ; out0             ;
-; |TrafficLight|74160:inst21|6  ; |TrafficLight|74160:inst21|6  ; regout           ;
-; |TrafficLight|74160:inst21|10 ; |TrafficLight|74160:inst21|10 ; out0             ;
-; |TrafficLight|74160:inst21|32 ; |TrafficLight|74160:inst21|32 ; out0             ;
-; |TrafficLight|74160:inst21|9  ; |TrafficLight|74160:inst21|9  ; regout           ;
-; |TrafficLight|74160:inst21|13 ; |TrafficLight|74160:inst21|13 ; out0             ;
-; |TrafficLight|74160:inst21|49 ; |TrafficLight|74160:inst21|49 ; out0             ;
-; |TrafficLight|74160:inst21|46 ; |TrafficLight|74160:inst21|46 ; out0             ;
-; |TrafficLight|74160:inst21|8  ; |TrafficLight|74160:inst21|8  ; regout           ;
-; |TrafficLight|74160:inst21|12 ; |TrafficLight|74160:inst21|12 ; out0             ;
-; |TrafficLight|74160:inst21|25 ; |TrafficLight|74160:inst21|25 ; out0             ;
-; |TrafficLight|74160:inst21|28 ; |TrafficLight|74160:inst21|28 ; out0             ;
-; |TrafficLight|74160:inst21|7  ; |TrafficLight|74160:inst21|7  ; regout           ;
-; |TrafficLight|74160:inst21|11 ; |TrafficLight|74160:inst21|11 ; out0             ;
-; |TrafficLight|74160:inst21|30 ; |TrafficLight|74160:inst21|30 ; out0             ;
-; |TrafficLight|74160:inst21|50 ; |TrafficLight|74160:inst21|50 ; out0             ;
-+-------------------------------+-------------------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                               ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |TrafficLight|4                                                                  ; |TrafficLight|4                                                                  ; pin_out          ;
+; |TrafficLight|12                                                                 ; |TrafficLight|12                                                                 ; pin_out          ;
+; |TrafficLight|74190:inst36|51                                                    ; |TrafficLight|74190:inst36|51                                                    ; regout           ;
+; |TrafficLight|74190:inst34|51                                                    ; |TrafficLight|74190:inst34|51                                                    ; regout           ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~17             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~17             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~1 ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~1 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~5              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~5              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~13             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~13             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+----------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                         ;
-+-------------------------------+-------------------------------+------------------+
-; Node Name                     ; Output Port Name              ; Output Port Type ;
-+-------------------------------+-------------------------------+------------------+
-; |TrafficLight|Main_Red        ; |TrafficLight|Main_Red        ; pin_out          ;
-; |TrafficLight|inst32          ; |TrafficLight|inst32          ; out0             ;
-; |TrafficLight|inst15          ; |TrafficLight|inst15          ; out0             ;
-; |TrafficLight|inst13          ; |TrafficLight|inst13          ; out0             ;
-; |TrafficLight|inst10          ; |TrafficLight|inst10          ; out0             ;
-; |TrafficLight|inst46          ; |TrafficLight|inst46          ; out0             ;
-; |TrafficLight|inst11          ; |TrafficLight|inst11          ; out0             ;
-; |TrafficLight|inst            ; |TrafficLight|inst            ; out0             ;
-; |TrafficLight|Main_Yellow     ; |TrafficLight|Main_Yellow     ; pin_out          ;
-; |TrafficLight|Main_Green      ; |TrafficLight|Main_Green      ; pin_out          ;
-; |TrafficLight|Vice_Red        ; |TrafficLight|Vice_Red        ; pin_out          ;
-; |TrafficLight|inst33          ; |TrafficLight|inst33          ; out0             ;
-; |TrafficLight|Vice_Yellow     ; |TrafficLight|Vice_Yellow     ; pin_out          ;
-; |TrafficLight|Vice_Green      ; |TrafficLight|Vice_Green      ; pin_out          ;
-; |TrafficLight|4               ; |TrafficLight|4               ; pin_out          ;
-; |TrafficLight|74190:inst37|26 ; |TrafficLight|74190:inst37|26 ; out0             ;
-; |TrafficLight|74190:inst37|22 ; |TrafficLight|74190:inst37|22 ; out0             ;
-; |TrafficLight|74190:inst36|51 ; |TrafficLight|74190:inst36|51 ; regout           ;
-; |TrafficLight|74190:inst36|24 ; |TrafficLight|74190:inst36|24 ; out0             ;
-; |TrafficLight|74190:inst34|51 ; |TrafficLight|74190:inst34|51 ; regout           ;
-; |TrafficLight|74190:inst34|26 ; |TrafficLight|74190:inst34|26 ; out0             ;
-; |TrafficLight|74190:inst34|24 ; |TrafficLight|74190:inst34|24 ; out0             ;
-; |TrafficLight|74160:inst21|6  ; |TrafficLight|74160:inst21|6  ; regout           ;
-; |TrafficLight|74160:inst21|10 ; |TrafficLight|74160:inst21|10 ; out0             ;
-; |TrafficLight|74160:inst21|32 ; |TrafficLight|74160:inst21|32 ; out0             ;
-; |TrafficLight|74160:inst21|9  ; |TrafficLight|74160:inst21|9  ; regout           ;
-; |TrafficLight|74160:inst21|13 ; |TrafficLight|74160:inst21|13 ; out0             ;
-; |TrafficLight|74160:inst21|49 ; |TrafficLight|74160:inst21|49 ; out0             ;
-; |TrafficLight|74160:inst21|46 ; |TrafficLight|74160:inst21|46 ; out0             ;
-; |TrafficLight|74160:inst21|8  ; |TrafficLight|74160:inst21|8  ; regout           ;
-; |TrafficLight|74160:inst21|12 ; |TrafficLight|74160:inst21|12 ; out0             ;
-; |TrafficLight|74160:inst21|25 ; |TrafficLight|74160:inst21|25 ; out0             ;
-; |TrafficLight|74160:inst21|28 ; |TrafficLight|74160:inst21|28 ; out0             ;
-; |TrafficLight|74160:inst21|7  ; |TrafficLight|74160:inst21|7  ; regout           ;
-; |TrafficLight|74160:inst21|11 ; |TrafficLight|74160:inst21|11 ; out0             ;
-; |TrafficLight|74160:inst21|30 ; |TrafficLight|74160:inst21|30 ; out0             ;
-; |TrafficLight|74160:inst21|50 ; |TrafficLight|74160:inst21|50 ; out0             ;
-+-------------------------------+-------------------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                               ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; Node Name                                                                        ; Output Port Name                                                                 ; Output Port Type ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
+; |TrafficLight|4                                                                  ; |TrafficLight|4                                                                  ; pin_out          ;
+; |TrafficLight|12                                                                 ; |TrafficLight|12                                                                 ; pin_out          ;
+; |TrafficLight|74190:inst36|51                                                    ; |TrafficLight|74190:inst36|51                                                    ; regout           ;
+; |TrafficLight|74190:inst34|51                                                    ; |TrafficLight|74190:inst34|51                                                    ; regout           ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~17             ; |TrafficLight|decoder:inst1|lpm_mux:Mux3|mux_cfc:auto_generated|_~17             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~1 ; |TrafficLight|decoder:inst1|lpm_mux:Mux2|mux_cfc:auto_generated|result_node[0]~1 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~2              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~2              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~4              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~4              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~5              ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~5              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~10             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~10             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~12             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~12             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~13             ; |TrafficLight|decoder:inst1|lpm_mux:Mux1|mux_cfc:auto_generated|_~13             ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~0              ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|_~0              ; out0             ;
+; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~0 ; |TrafficLight|decoder:inst1|lpm_mux:Mux0|mux_cfc:auto_generated|result_node[0]~0 ; out0             ;
++----------------------------------------------------------------------------------+----------------------------------------------------------------------------------+------------------+
 
 
 +---------------------+
@@ -293,24 +367,19 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Sep 08 08:47:10 2020
+    Info: Processing started: Tue Sep 08 19:58:35 2020
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off TrafficLight -c TrafficLight
 Info: Using vector source file "F:/VHDL/ClassDesign2/TrafficLight.vwf"
-Warning: Ignored node in vector source file. Can't find corresponding node name "QA" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "QB" in design.
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning: Found clock-sensitive change during active clock edge at time 200.0 ns on register "|TrafficLight|74190:inst36|51"
-Warning: Found clock-sensitive change during active clock edge at time 200.0 ns on register "|TrafficLight|74190:inst36|48"
-Warning: Found clock-sensitive change during active clock edge at time 200.0 ns on register "|TrafficLight|74190:inst36|50"
-Warning: Found clock-sensitive change during active clock edge at time 1.1 us on register "|TrafficLight|74190:inst36|49"
+Warning: Found clock-sensitive change during active clock edge at time 940.0 ns on register "|TrafficLight|delay:inst|ram"
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      67.26 %
-Info: Number of transitions in simulation is 1135409
-Info: Quartus II Simulator was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 166 megabytes
-    Info: Processing ended: Tue Sep 08 08:47:12 2020
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Simulation coverage is      86.87 %
+Info: Number of transitions in simulation is 1289998
+Info: Quartus II Simulator was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 167 megabytes
+    Info: Processing ended: Tue Sep 08 19:58:38 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

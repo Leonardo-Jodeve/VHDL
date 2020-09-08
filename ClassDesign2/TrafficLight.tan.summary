@@ -2,25 +2,55 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.584 ns
+From           : CLK
+To             : delay:inst|ram
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 15.586 ns
-From           : 74190:inst34|50
-To             : 3
+Actual Time    : 25.746 ns
+From           : 74160:inst21|7
+To             : Vice_Green
 From Clock     : CLK
 To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -2.192 ns
+From           : CLK
+To             : delay:inst|ram
+From Clock     : --
+To Clock       : CLK
 Failed Paths   : 0
 
 Type           : Clock Setup: 'CLK'
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 275.03 MHz ( period = 3.636 ns )
-From           : 74190:inst34|48
-To             : 74190:inst34|51
+Actual Time    : 53.22 MHz ( period = 18.790 ns )
+From           : 74190:inst36|50
+To             : delay:inst|ram
 From Clock     : CLK
 To Clock       : CLK
 Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : 74160:inst21|9
+To             : 74160:inst21|9
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 27
 
 Type           : Total number of failed paths
 Slack          : 
@@ -30,7 +60,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 27
 
 --------------------------------------------------------------------------------------
 

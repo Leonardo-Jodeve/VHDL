@@ -62,6 +62,39 @@ AUTO
 
 # end
 # entity
+delay
+# storage
+db|TrafficLight.(3).cnf
+db|TrafficLight.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+delay.vhd
+a17ac7a53bac279a399dc3019d512aa
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+delay:inst
+}
+# lmf
+d:|program files|quartus|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
 TrafficLight
 # storage
 db|TrafficLight.(0).cnf
@@ -69,7 +102,7 @@ db|TrafficLight.(0).cnf
 # case_insensitive
 # source_file
 TrafficLight.bdf
-f934ca6455dd7cb2d2f726ebeda37dbf
+32878fbd35fd37e6da649a7be3474c
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -78,6 +111,39 @@ AUTO
 # hierarchies {
 |
 }
+# macro_sequence
+
+# end
+# entity
+decoder
+# storage
+db|TrafficLight.(4).cnf
+db|TrafficLight.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+24decoder.vhd
+8a8d7a3f2d8a42e7a2cfc31a961cd1a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+decoder:inst1
+}
+# lmf
+d:|program files|quartus|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
 # macro_sequence
 
 # end

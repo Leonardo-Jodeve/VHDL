@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TrafficLight
-Tue Sep 08 08:46:46 2020
+Tue Sep 08 19:47:30 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
 
 
@@ -12,10 +12,8 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
   4. Analysis & Synthesis Source Files Read
   5. Analysis & Synthesis Resource Usage Summary
   6. Analysis & Synthesis Resource Utilization by Entity
-  7. Registers Removed During Synthesis
-  8. Removed Registers Triggering Further Register Optimizations
-  9. General Register Statistics
- 10. Analysis & Synthesis Messages
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
 
 
 
@@ -41,13 +39,13 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Tue Sep 08 08:46:46 2020    ;
+; Analysis & Synthesis Status ; Successful - Tue Sep 08 19:47:30 2020    ;
 ; Quartus II Version          ; 9.0 Build 132 02/25/2009 SJ Full Version ;
 ; Revision Name               ; TrafficLight                             ;
 ; Top-level Entity Name       ; TrafficLight                             ;
 ; Family                      ; Cyclone                                  ;
-; Total logic elements        ; 10                                       ;
-; Total pins                  ; 15                                       ;
+; Total logic elements        ; 41                                       ;
+; Total pins                  ; 23                                       ;
 ; Total virtual pins          ; 0                                        ;
 ; Total memory bits           ; 0                                        ;
 ; Total PLLs                  ; 0                                        ;
@@ -132,88 +130,62 @@ applicable agreement for further details.
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                         ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------+
 ; TrafficLight.bdf                 ; yes             ; User Block Diagram/Schematic File  ; F:/VHDL/ClassDesign2/TrafficLight.bdf                                ;
+; delay.vhd                        ; yes             ; User VHDL File                     ; F:/VHDL/ClassDesign2/delay.vhd                                       ;
+; 24decoder.vhd                    ; yes             ; User VHDL File                     ; F:/VHDL/ClassDesign2/24decoder.vhd                                   ;
 ; 74160.bdf                        ; yes             ; Megafunction                       ; d:/program files/quartus/quartus/libraries/others/maxplus2/74160.bdf ;
 ; 74190.bdf                        ; yes             ; Megafunction                       ; d:/program files/quartus/quartus/libraries/others/maxplus2/74190.bdf ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                   ;
-+---------------------------------------------+-----------------+
-; Resource                                    ; Usage           ;
-+---------------------------------------------+-----------------+
-; Total logic elements                        ; 10              ;
-;     -- Combinational with no register       ; 2               ;
-;     -- Register only                        ; 0               ;
-;     -- Combinational with a register        ; 8               ;
-;                                             ;                 ;
-; Logic element usage by number of LUT inputs ;                 ;
-;     -- 4 input functions                    ; 7               ;
-;     -- 3 input functions                    ; 0               ;
-;     -- 2 input functions                    ; 1               ;
-;     -- 1 input functions                    ; 2               ;
-;     -- 0 input functions                    ; 0               ;
-;                                             ;                 ;
-; Logic elements by mode                      ;                 ;
-;     -- normal mode                          ; 10              ;
-;     -- arithmetic mode                      ; 0               ;
-;     -- qfbk mode                            ; 0               ;
-;     -- register cascade mode                ; 0               ;
-;     -- synchronous clear/load mode          ; 0               ;
-;     -- asynchronous clear/load mode         ; 0               ;
-;                                             ;                 ;
-; Total registers                             ; 8               ;
-; I/O pins                                    ; 15              ;
-; Maximum fan-out node                        ; 74190:inst35|48 ;
-; Maximum fan-out                             ; 6               ;
-; Total fan-out                               ; 48              ;
-; Average fan-out                             ; 1.92            ;
-+---------------------------------------------+-----------------+
++------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                      ;
++---------------------------------------------+--------------------+
+; Resource                                    ; Usage              ;
++---------------------------------------------+--------------------+
+; Total logic elements                        ; 41                 ;
+;     -- Combinational with no register       ; 19                 ;
+;     -- Register only                        ; 5                  ;
+;     -- Combinational with a register        ; 17                 ;
+;                                             ;                    ;
+; Logic element usage by number of LUT inputs ;                    ;
+;     -- 4 input functions                    ; 18                 ;
+;     -- 3 input functions                    ; 2                  ;
+;     -- 2 input functions                    ; 7                  ;
+;     -- 1 input functions                    ; 9                  ;
+;     -- 0 input functions                    ; 0                  ;
+;                                             ;                    ;
+; Logic elements by mode                      ;                    ;
+;     -- normal mode                          ; 41                 ;
+;     -- arithmetic mode                      ; 0                  ;
+;     -- qfbk mode                            ; 0                  ;
+;     -- register cascade mode                ; 0                  ;
+;     -- synchronous clear/load mode          ; 0                  ;
+;     -- asynchronous clear/load mode         ; 16                 ;
+;                                             ;                    ;
+; Total registers                             ; 22                 ;
+; I/O pins                                    ; 23                 ;
+; Maximum fan-out node                        ; delay:inst|dataout ;
+; Maximum fan-out                             ; 16                 ;
+; Total fan-out                               ; 176                ;
+; Average fan-out                             ; 2.75               ;
++---------------------------------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                          ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name        ; Library Name ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------+--------------+
-; |TrafficLight              ; 10 (0)      ; 8            ; 0           ; 15   ; 0            ; 2 (0)        ; 0 (0)             ; 8 (0)            ; 0 (0)           ; 0 (0)      ; |TrafficLight              ; work         ;
-;    |74190:inst34|          ; 4 (4)       ; 4            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst34 ; work         ;
-;    |74190:inst35|          ; 6 (6)       ; 4            ; 0           ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst35 ; work         ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+----------------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                           ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name         ; Library Name ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------------+--------------+
+; |TrafficLight              ; 41 (4)      ; 22           ; 0           ; 23   ; 0            ; 19 (4)       ; 5 (0)             ; 17 (0)           ; 0 (0)           ; 0 (0)      ; |TrafficLight               ; work         ;
+;    |74160:inst21|          ; 4 (4)       ; 4            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74160:inst21  ; work         ;
+;    |74190:inst34|          ; 6 (6)       ; 4            ; 0           ; 0    ; 0            ; 2 (2)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst34  ; work         ;
+;    |74190:inst35|          ; 7 (7)       ; 4            ; 0           ; 0    ; 0            ; 3 (3)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst35  ; work         ;
+;    |74190:inst36|          ; 6 (6)       ; 4            ; 0           ; 0    ; 0            ; 2 (2)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst36  ; work         ;
+;    |74190:inst37|          ; 7 (7)       ; 4            ; 0           ; 0    ; 0            ; 3 (3)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|74190:inst37  ; work         ;
+;    |decoder:inst1|         ; 5 (5)       ; 0            ; 0           ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|decoder:inst1 ; work         ;
+;    |delay:inst|            ; 2 (2)       ; 2            ; 0           ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TrafficLight|delay:inst    ; work         ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                            ;
-+----------------------------------------+--------------------------------------+
-; Register name                          ; Reason for Removal                   ;
-+----------------------------------------+--------------------------------------+
-; 74160:inst21|6                         ; Stuck at GND due to stuck port clock ;
-; 74160:inst21|9                         ; Stuck at GND due to stuck port clock ;
-; 74160:inst21|8                         ; Stuck at GND due to stuck port clock ;
-; 74160:inst21|7                         ; Stuck at GND due to stuck port clock ;
-; 74190:inst36|51                        ; Lost fanout                          ;
-; 74190:inst36|48                        ; Lost fanout                          ;
-; 74190:inst36|49                        ; Lost fanout                          ;
-; 74190:inst36|50                        ; Lost fanout                          ;
-; 74190:inst37|51                        ; Lost fanout                          ;
-; 74190:inst37|48                        ; Lost fanout                          ;
-; 74190:inst37|49                        ; Lost fanout                          ;
-; 74190:inst37|50                        ; Lost fanout                          ;
-; Total Number of Removed Registers = 12 ;                                      ;
-+----------------------------------------+--------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                   ;
-+-----------------+-------------------------+---------------------------------------------------+
-; Register name   ; Reason for Removal      ; Registers Removed due to This Register            ;
-+-----------------+-------------------------+---------------------------------------------------+
-; 74190:inst36|51 ; Lost Fanouts            ; 74190:inst36|48, 74190:inst36|49, 74190:inst36|50 ;
-; 74190:inst37|51 ; Lost Fanouts            ; 74190:inst37|48, 74190:inst37|49, 74190:inst37|50 ;
-; 74160:inst21|6  ; Stuck at GND            ; 74160:inst21|7                                    ;
-;                 ; due to stuck port clock ;                                                   ;
-+-----------------+-------------------------+---------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -221,11 +193,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 8     ;
+; Total registers                              ; 22    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Asynchronous Clear ; 6     ;
+; Number of registers using Asynchronous Load  ; 10    ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
@@ -237,40 +209,38 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
-    Info: Processing started: Tue Sep 08 08:46:45 2020
+    Info: Processing started: Tue Sep 08 19:47:28 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TrafficLight -c TrafficLight
 Info: Found 1 design units, including 1 entities, in source file TrafficLight.bdf
     Info: Found entity 1: TrafficLight
+Info: Found 2 design units, including 1 entities, in source file delay.vhd
+    Info: Found design unit 1: delay-main
+    Info: Found entity 1: delay
+Info: Found 2 design units, including 1 entities, in source file 24decoder.vhd
+    Info: Found design unit 1: decoder-main
+    Info: Found entity 1: decoder
 Info: Elaborating entity "TrafficLight" for the top level hierarchy
-Warning: Block or symbol "OR2" of instance "inst46" overlaps another block or symbol
+Warning: Block or symbol "74190" of instance "inst37" overlaps another block or symbol
+Warning: Block or symbol "OR3" of instance "inst16" overlaps another block or symbol
+Info: Elaborating entity "decoder" for hierarchy "decoder:inst1"
+Warning (10492): VHDL Process Statement warning at 24decoder.vhd(26): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at 24decoder.vhd(27): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at 24decoder.vhd(28): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at 24decoder.vhd(29): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info: Elaborating entity "74160" for hierarchy "74160:inst21"
 Info: Elaborated megafunction instantiation "74160:inst21"
 Info: Elaborating entity "74190" for hierarchy "74190:inst34"
 Info: Elaborated megafunction instantiation "74190:inst34"
-Warning: Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Main_Red" is stuck at GND
-    Warning (13410): Pin "Main_Yellow" is stuck at GND
-    Warning (13410): Pin "Main_Green" is stuck at VCC
-    Warning (13410): Pin "Vice_Red" is stuck at VCC
-    Warning (13410): Pin "Vice_Yellow" is stuck at GND
-    Warning (13410): Pin "Vice_Green" is stuck at GND
-Info: 8 registers lost all their fanouts during netlist optimizations. The first 8 are displayed below.
-    Info: Register "74190:inst36|51" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst36|48" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst36|49" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst36|50" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst37|51" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst37|48" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst37|49" lost all its fanouts during netlist optimizations.
-    Info: Register "74190:inst37|50" lost all its fanouts during netlist optimizations.
-Info: Implemented 25 device resources after synthesis - the final resource count might be different
+Info: Elaborating entity "delay" for hierarchy "delay:inst"
+Warning (10036): Verilog HDL or VHDL warning at delay.vhd(15): object "clk_sig" assigned a value but never read
+Info: Implemented 64 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
-    Info: Implemented 14 output pins
-    Info: Implemented 10 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 234 megabytes
-    Info: Processing ended: Tue Sep 08 08:46:46 2020
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Implemented 22 output pins
+    Info: Implemented 41 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 255 megabytes
+    Info: Processing ended: Tue Sep 08 19:47:30 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
