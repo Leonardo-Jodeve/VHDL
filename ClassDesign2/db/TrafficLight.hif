@@ -69,7 +69,7 @@ db|TrafficLight.(0).cnf
 # case_insensitive
 # source_file
 TrafficLight.bdf
-6817115c54e4979ecd9dc57cb162156
+f934ca6455dd7cb2d2f726ebeda37dbf
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

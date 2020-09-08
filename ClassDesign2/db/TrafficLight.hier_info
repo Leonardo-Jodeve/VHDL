@@ -1,12 +1,20 @@
 |TrafficLight
 Main_Red <= inst32.DB_MAX_OUTPUT_PORT_TYPE
-pin_name => 74190:inst35.CLK
-pin_name => 74190:inst37.CLK
+CLK => 74190:inst35.CLK
+CLK => 74190:inst37.CLK
 Main_Yellow <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 Main_Green <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 Vice_Red <= inst33.DB_MAX_OUTPUT_PORT_TYPE
 Vice_Yellow <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 Vice_Green <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+1 <= 74190:inst34.QA
+2 <= 74190:inst34.QB
+3 <= 74190:inst34.QC
+4 <= 74190:inst34.QD
+5 <= 74190:inst35.QA
+6 <= 74190:inst35.QB
+7 <= 74190:inst35.QC
+8 <= 74190:inst35.QD
 
 
 |TrafficLight|74160:inst21
