@@ -258,8 +258,8 @@ VECTOR("F:/VHDL/ClassDesign2/TrafficLight.vwf")
 VECTOR("F:/VHDL/ClassDesign2/db/TrafficLight.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 5625396;
-		ZEND = 6008082;
+		ZBEGIN = 902453;
+		ZEND = 1285139;
 		NUMERATOR = 1053;
 		DENOMINATOR = 382686;
 		TOP_INDEX = 0;
